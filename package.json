@@ -28,6 +28,8 @@
 			}]
 		}
 	},
+	"publisher": "0x3f3f3f3f",
+    "repository": "https://github.com/0x3f3f3f3f/DocsifyBarAutoGenerater",
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
