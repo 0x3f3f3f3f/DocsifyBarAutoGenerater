@@ -77,6 +77,8 @@ function GenDir(currentDir:string,root:string, level:number):string {
 				let fileName = splitFileName(element);
 				//计算相对根目录路径
 				let link = path.relative(root,filedir);
+				//转译空格
+				link = link.replace(/\s/g,"%20");
 				ret += GenLink(fileName,link,level);
 			}
 		} else {
