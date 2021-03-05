@@ -4,6 +4,10 @@ All notable changes to the "docsifybarautogenerater" extension will be documente
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+
+## 0.0.2
+反斜杠全部替换成正斜杠
+
 ## [Unreleased]
 
 - Initial release

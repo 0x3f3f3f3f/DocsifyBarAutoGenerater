@@ -79,6 +79,8 @@ function GenDir(currentDir:string,root:string, level:number):string {
 				let link = path.relative(root,filedir);
 				//转译空格
 				link = link.replace(/\s/g,"%20");
+				//反斜杠全部替换成正斜杠
+				link = link.replace(/\\/g,"/"); 
 				ret += GenLink(fileName,link,level);
 			}
 		} else {
